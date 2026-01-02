@@ -59,6 +59,5 @@ difference() {
 	}
 
 	//Cut seat for top
-	import("solar-neopixel-holder-336d957.stl");
 	cube(size = $top, center = true);
 }
