@@ -25,7 +25,7 @@ difference() {
 		}
 		translate([$top[0] / 2 - 6, $top[1] / 2 - 4, -$top[2] / 2 ])
 		rotate([0, 20, 0])
-		cube(size = [10, 4, $top[2] - 2]);
+		cube(size = [12, 4, $top[2] - 2]);
 		hull() {
 			translate([$bottom[0] / 2 - 4, -$bottom[1] / 2, -$caseTotalTh])
 			cube(size = [4, 4, $bottom[2] / 2]);
